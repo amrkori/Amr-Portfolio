@@ -122,7 +122,7 @@ const Contact = () => {
             </div>
 
             <a
-              href="Amr Mohamed (FrontEnd)1.pdf"
+              href="/pdfs/AmrMohamed-FrontEnd-1.pdf"
               download
               className="inline-flex items-center gap-2 bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105"
             >
