@@ -35,10 +35,9 @@ const About = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl">
-                <img src="/images/2.jpg"
-                  alt="Amr Mohammed"
-                  className="w-full h-full object-cover"
-                />
+                <img src={`${import.meta.env.BASE_URL}images/2.jpg`}
+                alt="Amr Mohammed"
+                className="w-full h-full object-cover"/>
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-red-500 rounded-full flex items-center justify-center">
                 <User className="text-white w-12 h-12" />
