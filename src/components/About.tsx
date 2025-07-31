@@ -35,8 +35,7 @@ const About = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl overflow-hidden shadow-2xl">
-                <img
-                  src="2.jpg"
+                <img src="public\images\2.jpg"
                   alt="Amr Mohammed"
                   className="w-full h-full object-cover"
                 />
